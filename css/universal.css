@@ -989,9 +989,10 @@ a.btn-nav .btn {
   letter-spacing: -2px;
   margin: 0 0 5px; }
 .intro h1 {
-  font-size: 60px;
+  /* font-size: 60px;
   font-weight: 900;
-  line-height: 80px; }
+  line-height: 80px;  */
+}
   .intro h1.classic {
     font-size: 100px;
     line-height: 100px;

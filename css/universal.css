@@ -400,7 +400,9 @@ a .fa {
     display: inline-block; }
   .navbar-custom.top-nav-collapse {
     background-color: #fff;
-    border-bottom: 1px solid #eee; }
+    border-bottom: 1px solid #eee; 
+    height: 80px;
+  }
   .navbar-custom.top-nav-collapse a {
     color: #000; }
   .navbar-custom.top-nav-collapse .navbar-brand {
@@ -838,7 +840,9 @@ a.btn-nav .btn {
       background-color: transparent;
       background-image: none; } }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-  max-height: 400px; }
+  max-height: 400px; 
+  /* margin-top: 28px; */
+}
 
 /* Backgrounds and font color */
 .bg-white {
@@ -2022,3 +2026,22 @@ li .shop-cart {
     background-position: -40000px 0; } }
 
 /*# sourceMappingURL=universal.css.map */
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    margin-top: 22px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    margin-top: 22px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    margin-top: 22px;
+  }
+}
